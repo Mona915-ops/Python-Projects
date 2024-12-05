@@ -15,7 +15,7 @@ def delete_Task():
 ws = Tk()
 ws.geometry('500x450+500+200')
 ws.title('To-Do List')
-ws.config(bg='#223441')
+ws.config(bg='#FFC0CB')
 ws.resizable(width=False, height=False)
 
 frame = Frame(ws)
@@ -42,10 +42,10 @@ my_entry.pack(pady=20)
 button_frame = Frame(ws)
 button_frame.pack(pady=20)
 
-addTask_btn = Button(button_frame,text='Add Task',font=('sans-serif', 14),bg='#c5f776',padx=20,pady=10,command=add_Task)
+addTask_btn = Button(button_frame,text='Add Task',font=('sans-serif', 14),bg='#89CFF0',padx=20,pady=10,command=add_Task)
 addTask_btn.pack(fill=BOTH, expand=True, side=LEFT)
 
-delTask_btn = Button(button_frame,text='Delete Task',font=('times 14'),bg='#ff8b61',padx=20,pady=10,command=delete_Task)
+delTask_btn = Button(button_frame,text='Delete Task',font=('times 14'),bg='#800020',padx=20,pady=10,command=delete_Task)
 delTask_btn.pack(fill=BOTH, expand=True, side=LEFT)
 
 
